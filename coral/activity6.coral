@@ -1,0 +1,8 @@
+float bodyTemp
+
+bodyTemp = Get next input
+if AbsoluteValue(bodyTemp - 98.6) <0.0001
+   Put "Exactly normal" to output
+if (bodyTemp > 98.6)
+   Put "Above normal" to output
+Put "Below normal" to output

@@ -1,0 +1,16 @@
+integer timeHour
+integer timeMinute 
+float tollAmount
+
+timeHour = Get next input
+timeMinute = Get next input 
+
+if timeHour < 6
+   Put "tollAmount = 1.50" to output
+if timeHour < 10
+   Put "tollAmount = 4.60" to output
+if timeHour < 18
+   Put "tollAmount = 2.30" to output
+Put "tollAmount = 1.50" to output
+Put "Toll:" to output
+Put tollAmount to output

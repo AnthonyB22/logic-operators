@@ -1,0 +1,20 @@
+integer timeHour
+integer timeMinute
+integer numPersons
+float tollAmount
+
+timeHour = Get next input
+timeMinute = Get next input
+numPersons = Get next input
+
+if timeHour < 6
+   Put "tollAmount = 1.50" to output
+if timeHour < 10
+   Put "tollAmount = 4.60" to output
+if timeHour < 18
+   Put "tollAmount = 2.30" to output
+Put  "tollAmount  = 1.50" to output
+//Check for carpool(3 or more persons) and update toll if numPersons>= 3
+if (timeHour >= 6) and (timeHour<= 10)
+   Put "tollAmount = tollAmount *0.5" to output
+Put "tollAmount = 0.0" to output
